@@ -109,7 +109,12 @@
             </goals>
             <configuration>
               <sourceDirectory>src/main/avro/</sourceDirectory>
+
+              <!-- This seems to be the source of the problem -->
+              <!-- Not the default recommended on https://avro.apache.org/docs/current/gettingstartedjava.html,
+              but it used by some projects -->
               <outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
+
               <stringType>String</stringType>
             </configuration>
           </execution>
