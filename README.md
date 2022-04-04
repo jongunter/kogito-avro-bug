@@ -7,7 +7,7 @@ The error is super cryptic: `java.lang.IllegalArgumentException: Cannot find met
 
 ## Branches
 - `main` - broken example
-- `working` - simple working process without Avro Maven plugin or message node
+- `working` - working process with message node but no Avro Maven Plugin
 - `working1` - working process with Avro Maven plugin but no message node
 - `working2` - working process with message node but no Avro maven plugin
 - `working3` - working process with message node and Avro maven plugin, but plugin output directory set differnetly
